@@ -3,6 +3,7 @@ using System.Web.Optimization;
 
 String tenantID = "12a345bc-67d1-ef89-abcd-efg12345abcde";
 String client_secret = "abcd~a1234bcd56789012abcdabcd1234abcd";
+String azure_sql_connection_string = "Server=tcp:iaeaSecretsTestServer.database.windows.net,1433;Initial Catalog=testDB;Persist Security Info=False;User ID=testUser;Password=MyPassword123!;Encrypt=True;TrustServerCertificate=True;Connection Timeout=30;"
 
 namespace HelloWorld
 {
